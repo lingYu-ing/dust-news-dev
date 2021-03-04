@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dust-news-dev-service-api" />
+        <module name="dust-news-dev-model" />
+        <module name="dust-news-dev-service-admin" />
+        <module name="dust-news-dev-service-files" />
+        <module name="dust-news-dev-common" />
+        <module name="dust-news-dev-service-user" />
+        <module name="dust-news-dev-service-article" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dust-news-dev-common" options="-parameters" />
+      <module name="dust-news-dev-model" options="-parameters" />
+      <module name="dust-news-dev-service-admin" options="-parameters" />
+      <module name="dust-news-dev-service-api" options="-parameters" />
+      <module name="dust-news-dev-service-article" options="-parameters" />
+      <module name="dust-news-dev-service-files" options="-parameters" />
+      <module name="dust-news-dev-service-user" options="-parameters" />
+    </option>
+  </component>
+</project>
